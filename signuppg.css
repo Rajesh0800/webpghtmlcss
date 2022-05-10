@@ -1,0 +1,70 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serifs;
+}
+body{
+	color:white;
+	display:flex;
+	height:100vh;
+	justify-content:center;
+	align-items:center;
+	background: linear-gradient(135deg,#05073a,#dc0606ca);
+	padding:10px;
+	
+	
+}
+.container{
+	max-width:700px;
+	width:100%;
+	padding: 25px 30px;
+	border-radius:25px;
+	background:linear-gradient(135deg, #dc0606ca, #05073a);
+}
+.container .heading{
+	font-size:25px;
+	font-weight:500;
+	position:relative;
+	text-align:center;
+	padding: 0 0 20px 0;
+}
+
+.container .heading::before{
+	content:'';
+	position:absolute;
+	height:3px;
+	left:0;
+	bottom:0;
+	width:100%;
+	background: linear-gradient(135deg,green,#dc0606ca);
+}
+.container .card
+{
+	margin-top:55px;
+	margin-bottom:25px;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+	
+}
+.card .card-box{
+	width:cal(100% / 2 -20px);
+	margin-bottom:40px;
+	
+}
+.card .card-box .details{
+	display:block;
+	font-weight:500;
+	margin-bottom:5px
+}
+
+.btn {
+	text-align:center;
+	font-size:25px;
+	color:white;
+	background: linear-gradient(135deg,green,#dc0606ca);
+	
+	border-radius:5px;
+	background:50%;
+} 
